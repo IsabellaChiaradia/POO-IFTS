@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PF1_Ej4/1.0.0": {
+        "runtime": {
+          "PF1_Ej4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PF1_Ej4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
