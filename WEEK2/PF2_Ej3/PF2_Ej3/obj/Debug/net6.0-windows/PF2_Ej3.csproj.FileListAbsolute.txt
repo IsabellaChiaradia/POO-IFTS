@@ -1,0 +1,16 @@
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\obj\Debug\net6.0-windows\PF2_Ej3.Form1.resources
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\obj\Debug\net6.0-windows\PF2_Ej3.csproj.GenerateResource.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\obj\Debug\net6.0-windows\PF2_Ej3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\obj\Debug\net6.0-windows\PF2_Ej3.AssemblyInfoInputs.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\obj\Debug\net6.0-windows\PF2_Ej3.AssemblyInfo.cs
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\obj\Debug\net6.0-windows\PF2_Ej3.csproj.CoreCompileInputs.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\bin\Debug\net6.0-windows\PF2_Ej3.exe
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\bin\Debug\net6.0-windows\PF2_Ej3.deps.json
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\bin\Debug\net6.0-windows\PF2_Ej3.runtimeconfig.json
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\bin\Debug\net6.0-windows\PF2_Ej3.dll
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\bin\Debug\net6.0-windows\PF2_Ej3.pdb
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\obj\Debug\net6.0-windows\PF2_Ej3.dll
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\obj\Debug\net6.0-windows\refint\PF2_Ej3.dll
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\obj\Debug\net6.0-windows\PF2_Ej3.pdb
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\obj\Debug\net6.0-windows\PF2_Ej3.genruntimeconfig.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF2_Ej3\PF2_Ej3\obj\Debug\net6.0-windows\ref\PF2_Ej3.dll
