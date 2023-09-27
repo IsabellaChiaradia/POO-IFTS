@@ -1,0 +1,14 @@
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\bin\Debug\net6.0\PF1_Ej6.exe
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\bin\Debug\net6.0\PF1_Ej6.deps.json
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\bin\Debug\net6.0\PF1_Ej6.runtimeconfig.json
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\bin\Debug\net6.0\PF1_Ej6.dll
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\bin\Debug\net6.0\PF1_Ej6.pdb
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\obj\Debug\net6.0\PF1_Ej6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\obj\Debug\net6.0\PF1_Ej6.AssemblyInfoInputs.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\obj\Debug\net6.0\PF1_Ej6.AssemblyInfo.cs
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\obj\Debug\net6.0\PF1_Ej6.csproj.CoreCompileInputs.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\obj\Debug\net6.0\PF1_Ej6.dll
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\obj\Debug\net6.0\refint\PF1_Ej6.dll
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\obj\Debug\net6.0\PF1_Ej6.pdb
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\obj\Debug\net6.0\PF1_Ej6.genruntimeconfig.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\PF1_Ej6\PF1_Ej6\obj\Debug\net6.0\ref\PF1_Ej6.dll
