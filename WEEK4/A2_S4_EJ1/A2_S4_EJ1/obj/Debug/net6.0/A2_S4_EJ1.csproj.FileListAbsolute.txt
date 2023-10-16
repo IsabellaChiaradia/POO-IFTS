@@ -1,0 +1,14 @@
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\bin\Debug\net6.0\A2_S4_EJ1.exe
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\bin\Debug\net6.0\A2_S4_EJ1.deps.json
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\bin\Debug\net6.0\A2_S4_EJ1.runtimeconfig.json
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\bin\Debug\net6.0\A2_S4_EJ1.dll
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\bin\Debug\net6.0\A2_S4_EJ1.pdb
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\obj\Debug\net6.0\A2_S4_EJ1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\obj\Debug\net6.0\A2_S4_EJ1.AssemblyInfoInputs.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\obj\Debug\net6.0\A2_S4_EJ1.AssemblyInfo.cs
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\obj\Debug\net6.0\A2_S4_EJ1.csproj.CoreCompileInputs.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\obj\Debug\net6.0\A2_S4_EJ1.dll
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\obj\Debug\net6.0\refint\A2_S4_EJ1.dll
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\obj\Debug\net6.0\A2_S4_EJ1.pdb
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\obj\Debug\net6.0\A2_S4_EJ1.genruntimeconfig.cache
+C:\Users\ISABELLA\Documents\Tecnicatura_desarollo_software\1_año_2doCuat\POO\Semana1\WEEK4\A2_S4_EJ1\A2_S4_EJ1\obj\Debug\net6.0\ref\A2_S4_EJ1.dll

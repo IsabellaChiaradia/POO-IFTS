@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ISABELLA\\Documents\\Tecnicatura_desarollo_software\\1_año_2doCuat\\POO\\A2_S4_EJ1\\A2_S4_EJ1\\A2_S4_EJ1.csproj": {}
+    "C:\\Users\\ISABELLA\\Documents\\Tecnicatura_desarollo_software\\1_año_2doCuat\\POO\\Semana1\\WEEK4\\A2_S4_EJ1\\A2_S4_EJ1\\A2_S4_EJ1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ISABELLA\\Documents\\Tecnicatura_desarollo_software\\1_año_2doCuat\\POO\\A2_S4_EJ1\\A2_S4_EJ1\\A2_S4_EJ1.csproj": {
+    "C:\\Users\\ISABELLA\\Documents\\Tecnicatura_desarollo_software\\1_año_2doCuat\\POO\\Semana1\\WEEK4\\A2_S4_EJ1\\A2_S4_EJ1\\A2_S4_EJ1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ISABELLA\\Documents\\Tecnicatura_desarollo_software\\1_año_2doCuat\\POO\\A2_S4_EJ1\\A2_S4_EJ1\\A2_S4_EJ1.csproj",
+        "projectUniqueName": "C:\\Users\\ISABELLA\\Documents\\Tecnicatura_desarollo_software\\1_año_2doCuat\\POO\\Semana1\\WEEK4\\A2_S4_EJ1\\A2_S4_EJ1\\A2_S4_EJ1.csproj",
         "projectName": "A2_S4_EJ1",
-        "projectPath": "C:\\Users\\ISABELLA\\Documents\\Tecnicatura_desarollo_software\\1_año_2doCuat\\POO\\A2_S4_EJ1\\A2_S4_EJ1\\A2_S4_EJ1.csproj",
+        "projectPath": "C:\\Users\\ISABELLA\\Documents\\Tecnicatura_desarollo_software\\1_año_2doCuat\\POO\\Semana1\\WEEK4\\A2_S4_EJ1\\A2_S4_EJ1\\A2_S4_EJ1.csproj",
         "packagesPath": "C:\\Users\\ISABELLA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ISABELLA\\Documents\\Tecnicatura_desarollo_software\\1_año_2doCuat\\POO\\A2_S4_EJ1\\A2_S4_EJ1\\obj\\",
+        "outputPath": "C:\\Users\\ISABELLA\\Documents\\Tecnicatura_desarollo_software\\1_año_2doCuat\\POO\\Semana1\\WEEK4\\A2_S4_EJ1\\A2_S4_EJ1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

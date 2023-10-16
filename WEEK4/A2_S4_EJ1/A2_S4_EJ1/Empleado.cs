@@ -1,13 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace A2_S4_EJ1
 {
-    internal class Empleado
+    class Empleado
     {
+        private string nombre;
+        private int edad;
+        private string cargo;
 
+        public Empleado (string nombre, int edad, string cargo)
+        {
+            this.nombre = nombre;
+            this.edad = edad;
+            this.cargo = cargo;
+        }
+
+        public void printInfo()
+        {
+            Console.WriteLine($"Nombre: {nombre}");
+            Console.WriteLine($"Edad: {edad}");
+            Console.WriteLine($"Cargo: {cargo}");
+        }
     }
 }
