@@ -1,6 +1,6 @@
-﻿namespace A2_S4_Ej2
+﻿namespace PrimerForm
 {
-    partial class Login
+    partial class frmPrincipal
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,187 +28,157 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            pictureBox3 = new PictureBox();
-            pictureBox4 = new PictureBox();
-            label1 = new Label();
-            txtUsuario = new TextBox();
-            txtClave = new TextBox();
-            pictureBox5 = new PictureBox();
+            lblNombre = new Label();
+            txtNombre = new TextBox();
+            lblApellido = new Label();
+            lblDocumento = new Label();
+            txtApellido = new TextBox();
+            txtDocumento = new TextBox();
             btnIngresar = new Button();
-            btnClose = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            btnLimpiar = new Button();
+            cboTipo = new ComboBox();
+            label1 = new Label();
+            dbgrdPostulante = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dbgrdPostulante).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // lblNombre
             // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
-            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(37, 129);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(173, 168);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            lblNombre.AutoSize = true;
+            lblNombre.Location = new Point(92, 42);
+            lblNombre.Name = "lblNombre";
+            lblNombre.Size = new Size(51, 15);
+            lblNombre.TabIndex = 0;
+            lblNombre.Text = "Nombre";
+            lblNombre.Click += label1_Click;
             // 
-            // pictureBox2
+            // txtNombre
             // 
-            pictureBox2.BackColor = SystemColors.ScrollBar;
-            pictureBox2.Location = new Point(260, -1);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(354, 423);
-            pictureBox2.TabIndex = 1;
-            pictureBox2.TabStop = false;
+            txtNombre.Cursor = Cursors.IBeam;
+            txtNombre.Location = new Point(168, 39);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(233, 23);
+            txtNombre.TabIndex = 1;
             // 
-            // pictureBox3
+            // lblApellido
             // 
-            pictureBox3.BackColor = SystemColors.ScrollBar;
-            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
-            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox3.Location = new Point(343, 185);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(204, 40);
-            pictureBox3.TabIndex = 2;
-            pictureBox3.TabStop = false;
+            lblApellido.AutoSize = true;
+            lblApellido.Location = new Point(92, 93);
+            lblApellido.Name = "lblApellido";
+            lblApellido.Size = new Size(51, 15);
+            lblApellido.TabIndex = 2;
+            lblApellido.Text = "Apellido";
             // 
-            // pictureBox4
+            // lblDocumento
             // 
-            pictureBox4.BackColor = SystemColors.ScrollBar;
-            pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
-            pictureBox4.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox4.Location = new Point(343, 257);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(204, 40);
-            pictureBox4.TabIndex = 3;
-            pictureBox4.TabStop = false;
+            lblDocumento.AutoSize = true;
+            lblDocumento.Location = new Point(337, 161);
+            lblDocumento.Name = "lblDocumento";
+            lblDocumento.Size = new Size(70, 15);
+            lblDocumento.TabIndex = 3;
+            lblDocumento.Text = "Documento";
+            // 
+            // txtApellido
+            // 
+            txtApellido.Location = new Point(168, 85);
+            txtApellido.Name = "txtApellido";
+            txtApellido.Size = new Size(233, 23);
+            txtApellido.TabIndex = 4;
+            // 
+            // txtDocumento
+            // 
+            txtDocumento.Location = new Point(413, 153);
+            txtDocumento.Name = "txtDocumento";
+            txtDocumento.Size = new Size(233, 23);
+            txtDocumento.TabIndex = 5;
+            // 
+            // btnIngresar
+            // 
+            btnIngresar.Location = new Point(515, 22);
+            btnIngresar.Name = "btnIngresar";
+            btnIngresar.Size = new Size(131, 35);
+            btnIngresar.TabIndex = 6;
+            btnIngresar.Text = "INGRESAR";
+            btnIngresar.UseVisualStyleBackColor = true;
+            btnIngresar.Click += btnIngresar_Click;
+            // 
+            // btnLimpiar
+            // 
+            btnLimpiar.Location = new Point(515, 85);
+            btnLimpiar.Name = "btnLimpiar";
+            btnLimpiar.Size = new Size(131, 33);
+            btnLimpiar.TabIndex = 7;
+            btnLimpiar.Text = "LIMPIAR";
+            btnLimpiar.UseVisualStyleBackColor = true;
+            btnLimpiar.Click += btnLimpiar_Click;
+            // 
+            // cboTipo
+            // 
+            cboTipo.FormattingEnabled = true;
+            cboTipo.Location = new Point(168, 153);
+            cboTipo.Name = "cboTipo";
+            cboTipo.Size = new Size(121, 23);
+            cboTipo.TabIndex = 8;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = SystemColors.ScrollBar;
-            label1.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = SystemColors.ControlLightLight;
-            label1.Location = new Point(385, 116);
+            label1.Location = new Point(113, 161);
             label1.Name = "label1";
-            label1.Size = new Size(104, 45);
-            label1.TabIndex = 4;
-            label1.Text = "Login";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
+            label1.Size = new Size(30, 15);
+            label1.TabIndex = 9;
+            label1.Text = "Tipo";
             // 
-            // txtUsuario
+            // dbgrdPostulante
             // 
-            txtUsuario.BackColor = SystemColors.ScrollBar;
-            txtUsuario.BorderStyle = BorderStyle.None;
-            txtUsuario.Font = new Font("Segoe UI Historic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            txtUsuario.Location = new Point(354, 194);
-            txtUsuario.Name = "txtUsuario";
-            txtUsuario.Size = new Size(182, 22);
-            txtUsuario.TabIndex = 5;
-            txtUsuario.Text = "Usuario";
-            txtUsuario.Enter += txtUsuario_Enter;
-            txtUsuario.Leave += txtUsuario_Leave;
+            dbgrdPostulante.AllowUserToAddRows = false;
+            dbgrdPostulante.AllowUserToDeleteRows = false;
+            dbgrdPostulante.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dbgrdPostulante.BackgroundColor = SystemColors.ButtonFace;
+            dbgrdPostulante.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dbgrdPostulante.Location = new Point(92, 223);
+            dbgrdPostulante.Name = "dbgrdPostulante";
+            dbgrdPostulante.RowTemplate.Height = 25;
+            dbgrdPostulante.Size = new Size(554, 186);
+            dbgrdPostulante.TabIndex = 10;
             // 
-            // txtClave
-            // 
-            txtClave.BackColor = SystemColors.ScrollBar;
-            txtClave.BorderStyle = BorderStyle.None;
-            txtClave.Font = new Font("Segoe UI Historic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            txtClave.ForeColor = SystemColors.InfoText;
-            txtClave.Location = new Point(354, 266);
-            txtClave.Name = "txtClave";
-            txtClave.Size = new Size(182, 22);
-            txtClave.TabIndex = 6;
-            txtClave.Text = "Clave";
-            txtClave.Enter += txtClave_Enter;
-            txtClave.Leave += txtClave_Leave;
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.BackColor = SystemColors.ScrollBar;
-            pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
-            pictureBox5.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox5.Location = new Point(385, 324);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(127, 38);
-            pictureBox5.TabIndex = 7;
-            pictureBox5.TabStop = false;
-            // 
-            // btnIngresar
-            // 
-            btnIngresar.BackColor = SystemColors.ScrollBar;
-            btnIngresar.FlatAppearance.BorderSize = 0;
-            btnIngresar.FlatAppearance.MouseDownBackColor = SystemColors.MenuBar;
-            btnIngresar.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark;
-            btnIngresar.FlatStyle = FlatStyle.Flat;
-            btnIngresar.ForeColor = SystemColors.MenuText;
-            btnIngresar.Location = new Point(397, 330);
-            btnIngresar.Name = "btnIngresar";
-            btnIngresar.Size = new Size(104, 28);
-            btnIngresar.TabIndex = 8;
-            btnIngresar.Text = "Ingresar";
-            btnIngresar.UseVisualStyleBackColor = false;
-            // 
-            // btnClose
-            // 
-            btnClose.BackColor = SystemColors.ScrollBar;
-            btnClose.FlatAppearance.BorderSize = 0;
-            btnClose.FlatStyle = FlatStyle.Flat;
-            btnClose.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point);
-            btnClose.ForeColor = SystemColors.ButtonHighlight;
-            btnClose.Location = new Point(557, 12);
-            btnClose.Name = "btnClose";
-            btnClose.Size = new Size(41, 41);
-            btnClose.TabIndex = 9;
-            btnClose.Text = "X";
-            btnClose.UseVisualStyleBackColor = false;
-            btnClose.Enter += btnClose_Click;
-            // 
-            // Login
+            // frmPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(610, 421);
-            Controls.Add(btnClose);
-            Controls.Add(btnIngresar);
-            Controls.Add(pictureBox5);
-            Controls.Add(txtClave);
-            Controls.Add(txtUsuario);
+            BackColor = Color.LightGreen;
+            ClientSize = new Size(735, 421);
+            Controls.Add(dbgrdPostulante);
             Controls.Add(label1);
-            Controls.Add(pictureBox4);
-            Controls.Add(pictureBox3);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
-            FormBorderStyle = FormBorderStyle.None;
-            Name = "Login";
-            Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            Controls.Add(cboTipo);
+            Controls.Add(btnLimpiar);
+            Controls.Add(btnIngresar);
+            Controls.Add(txtDocumento);
+            Controls.Add(txtApellido);
+            Controls.Add(lblDocumento);
+            Controls.Add(lblApellido);
+            Controls.Add(txtNombre);
+            Controls.Add(lblNombre);
+            Name = "frmPrincipal";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "PRIMER PROYECTO";
+            ((System.ComponentModel.ISupportInitialize)dbgrdPostulante).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox3;
-        private PictureBox pictureBox4;
-        private Label label1;
-        private TextBox txtUsuario;
-        private TextBox txtClave;
-        private PictureBox pictureBox5;
+        private Label lblNombre;
+        private TextBox txtNombre;
+        private Label lblApellido;
+        private Label lblDocumento;
+        private TextBox txtApellido;
+        private TextBox txtDocumento;
         private Button btnIngresar;
-        private Button btnClose;
+        private Button btnLimpiar;
+        private ComboBox cboTipo;
+        private Label label1;
+        private DataGridView dbgrdPostulante;
     }
 }
