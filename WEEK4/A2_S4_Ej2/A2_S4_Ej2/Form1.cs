@@ -29,10 +29,6 @@ namespace PrimerForm
             dbgrdPostulante.Columns.Add(documentoColumn);
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
@@ -44,7 +40,7 @@ namespace PrimerForm
             if (string.IsNullOrWhiteSpace(txtDocumento.Text))
             {
                 MessageBox.Show("Documento inválido. Ingrese un número válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return; // Salir del evento sin procesar más
+                return; 
             }
 
             int id;
@@ -52,7 +48,7 @@ namespace PrimerForm
             if (!int.TryParse(txtDocumento.Text, out id))
             {
                 MessageBox.Show("Documento inválido. Ingrese un número válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return; // Salir del evento sin procesar más
+                return;
             }
 
             Postulante candidate = new Postulante(name, lastName, type, id);
@@ -63,20 +59,73 @@ namespace PrimerForm
                 candidate.Apellido + "   TIPO DE ID:   " + candidate.Tipo + "     DOCUMENTO:   "
                  + candidate.Documento, "INGRESO DEL CANDIDATO", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            txtNombre.Text = "";
-            txtApellido.Text = "";
+            txtNombre.Text = "Nombre";
+            txtApellido.Text = "Apellido";
             cboTipo.Text = "";
-            txtDocumento.Text = "";
+            txtDocumento.Text = "Documento";
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
-            txtNombre.Text = "";
-            txtApellido.Text = "";
+            txtNombre.Text = "Nombre";
+            txtApellido.Text = "Apellido";
             cboTipo.Text = "";
-            txtDocumento.Text = "";
+            txtDocumento.Text = "Documento";
 
 
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void txtNombre_Enter(object sender, EventArgs e)
+        {
+            if (txtNombre.Text == "Nombre")
+            {
+                txtNombre.Text = "";
+            }
+        }
+
+        private void txtNombre_Leave(object sender, EventArgs e)
+        {
+            if (txtNombre.Text == "")
+            {
+                txtNombre.Text = "Nombre";
+            }
+        }
+
+        private void txtApellido_Enter(object sender, EventArgs e)
+        {
+            if (txtApellido.Text == "Apellido")
+            {
+                txtApellido.Text = "";
+            }
+        }
+
+        private void txtApellido_Leave(object sender, EventArgs e)
+        {
+            if (txtApellido.Text == "")
+            {
+                txtApellido.Text = "Apellido";
+            }
+        }
+
+        private void txtDocumento_Enter(object sender, EventArgs e)
+        {
+            if (txtDocumento.Text == "Documento")
+            {
+                txtDocumento.Text = "";
+            }
+        }
+
+        private void txtDocumento_Leave(object sender, EventArgs e)
+        {
+            if (txtDocumento.Text == "")
+            {
+                txtDocumento.Text = "Documento";
+            }
         }
     }
 }
